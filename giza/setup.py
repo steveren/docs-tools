@@ -13,7 +13,7 @@ REQUIRES = [
     'pyyaml',
     'rstcloth==0.2.5',
     'sphinx-intl',
-    'sphinx==1.2.3',
+    'sphinx==1.3.3',
     'sphinxcontrib-httpdomain',
     'wand',
     'boto',
