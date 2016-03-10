@@ -265,16 +265,16 @@ pre {
     margin: 24px 0;
 }
 
-code {
+tt, code {
     color: #000;
     font-family: 'Source Code Pro', monospace;
 }
 
-a>code {
+a>tt, a>code {
     color: #006cbc;
 }
 
-code.xref, a code {
+code.xref, a code, tt.xref, a tt {
     font-weight: normal;
 }
 
@@ -571,11 +571,13 @@ div#docs-header { width: 950px; }
 
 div#main-db.hidden { display: none; }
 
-code,code  span.pre {
+code span.pre, tt span.pre {
     font-family: 'Source Code Pro', monospace;
 }
 code.descname,
-code.descclassname {
+code.descclassname,
+tt.descname,
+tt.descclassname {
     font-size: 16px;
     font-weight: normal;
 }
@@ -1278,7 +1280,8 @@ div.sphinxsidebar h3 a.showlink {
      background-color: #615f5f;
 }
 .sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a,
-.sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a > code {
+.sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a > code,
+.sphinxsidebarwrapper .toctree-l1 li.current.selected-item > a > tt {
     color: white;
 }
 
@@ -1368,7 +1371,8 @@ div.sphinxsidebar input[type="submit"] {
     width: 4.5em !important;
 }
 
-div.sphinxsidebar code.literal .pre {
+div.sphinxsidebar code.literal .pre,
+div.sphinxsidebar tt.literal .pre {
     font-weight: normal;
 }
 
@@ -1376,7 +1380,8 @@ div.sphinxsidebarwrapper ul {
     margin: 12px 0 0 0;
     padding: 0;
 }
-div.sphinxsidebarwrapper ul li a code span {
+div.sphinxsidebarwrapper ul li a code span,
+div.sphinxsidebarwrapper ul li a tt span {
     font-size:inherit;
 }
 div.sphinxsidebarwrapper div.idxcontents {
