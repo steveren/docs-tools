@@ -31,7 +31,7 @@ requests-oauthlib==0.6.0
 requests-toolbelt==0.6.0
 rstcloth==0.2.5
 six==1.10.0
-Sphinx==1.2.3
+Sphinx==3.0.4
 sphinx-intl==0.9.9
 sphinxcontrib-httpdomain==1.4.0
 tlslite==0.4.9
