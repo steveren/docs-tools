@@ -37,4 +37,4 @@ sphinxcontrib-httpdomain==1.4.0
 tlslite==0.4.9
 uritemplate.py==0.3.0
 Wand==0.4.2
-wheel==0.29.0
+wheel==0.38.0
