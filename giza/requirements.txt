@@ -6,7 +6,7 @@ click==6.2
 cryptography==1.2.2
 docutils==0.12
 enum34==1.1.2
-future==0.15.2
+future==0.18.3
 github3.py==0.9.5
 giza==0.5.7a0
 hieroglyph==0.7.1
