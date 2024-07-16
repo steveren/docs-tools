@@ -38,3 +38,4 @@ tlslite==0.4.9
 uritemplate.py==0.3.0
 Wand==0.4.2
 wheel==0.29.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
